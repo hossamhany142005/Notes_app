@@ -2,12 +2,11 @@ import 'package:flutter/material.dart';
 
 class NoteItem extends StatelessWidget {
   const NoteItem({super.key});
-
   @override
   Widget build(BuildContext context) {
     return Container(
       decoration: BoxDecoration(
-        color: const Color.fromARGB(219, 238, 181, 66),
+        color: const Color.fromARGB(219, 242, 197, 107),
         borderRadius: BorderRadius.circular(16),
       ),
       child: Column(
@@ -19,7 +18,7 @@ class NoteItem extends StatelessWidget {
               child: Text(
                 'flutter Tips',
                 style: TextStyle(
-                  color: Colors.black,
+                  color: const Color.fromARGB(255, 255, 255, 255),
                   fontWeight: FontWeight.bold,
                   fontSize: 28,
                 ),
@@ -28,8 +27,8 @@ class NoteItem extends StatelessWidget {
             subtitle: Text(
               'build your career with hossam hany',
               style: TextStyle(
-                color: const Color.fromARGB(255, 50, 50, 50),
-                fontSize: 20,
+                color: const Color.fromARGB(145, 54, 53, 53),
+                fontSize: 16,
               ),
             ),
             trailing: IconButton(
