@@ -6,7 +6,7 @@ class NoteItem extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       decoration: BoxDecoration(
-        color: const Color.fromARGB(219, 242, 197, 107),
+        color: const Color.fromARGB(219, 248, 193, 84),
         borderRadius: BorderRadius.circular(16),
       ),
       child: Column(
